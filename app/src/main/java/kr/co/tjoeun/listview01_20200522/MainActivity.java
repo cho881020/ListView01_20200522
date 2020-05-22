@@ -45,6 +45,17 @@ public class MainActivity extends BaseActivity {
             }
         });
 
+
+        binding.studentListView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+
+                Toast.makeText(mContext, position+"번 줄 오래 눌림", Toast.LENGTH_SHORT).show();
+
+                return true;
+            }
+        });
+
     }
 
     @Override
