@@ -32,6 +32,13 @@ public class MainActivity extends BaseActivity {
 
     @Override
     public void setValues() {
+        addStudents();
+
+    }
+
+
+
+    void addStudents() {
 
         ourClassStudentList.add(new Student("조경진", "서울시 은평구"));
         ourClassStudentList.add(new Student("강희진", "인천시 남동구"));
