@@ -1,6 +1,6 @@
 package kr.co.tjoeun.listview01_20200522.datas;
 
-public class User {
+public class Student {
 
     private String name;
     private String address;
@@ -8,7 +8,7 @@ public class User {
 //    Alt + Insert
 
 
-    public User(String name, String address) {
+    public Student(String name, String address) {
         this.name = name;
         this.address = address;
     }
